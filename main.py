@@ -1527,7 +1527,8 @@ for i in range(len(arreglo_de_arreglos[distritos_indice])):
 
 init_graph = {}
 
-#Djisktra
+# Dijkstra’s Algorithm
+# source: https://www.udacity.com/blog/2021/10/implementing-dijkstras-algorithm-in-python.html
 class Graph(object):
     def __init__(self, nodes, init_graph):
         self.nodes = nodes
